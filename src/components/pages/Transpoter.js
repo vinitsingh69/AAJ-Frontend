@@ -3,7 +3,7 @@ import transport_man from '../images/transport_man.png'
 
 const Transpoter = () => {
     return (
-        <div className="bg-white">
+        <div className="bg-white px-8">
             <div className="container mx-auto px-4 py-16">
                 <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
                     {/*  Left Content Section  */}

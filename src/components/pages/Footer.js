@@ -4,7 +4,7 @@ import linkedin from '../images/linkedin.png'
 
 const Footer = () => {
     return (
-        <div className='mt-16'> 
+        <div className='mt-16 px-8'> 
             {/* <!-- Header Section --> */}
             <header className="container mx-auto  py-6 flex justify-between items-center border-b">
                 <div className="flex items-center">
