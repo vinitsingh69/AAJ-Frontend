@@ -5,7 +5,7 @@ import linkedin from '../images/linkedin.png'
 const Footer = () => {
     return (
         <div className='mt-16 px-8'> 
-            {/* <!-- Header Section --> */}
+            {/*  Header Section */}
             <header className="container mx-auto  py-6 flex justify-between items-center border-b">
                 <div className="flex items-center">
                     <img src={aaj_swift_logo} alt="AAJ Swift" className="h-8" />
@@ -38,10 +38,10 @@ const Footer = () => {
                 </div>
             </header>
 
-            {/* <!-- Footer Navigation --> */}
+            {/*  Footer Navigation */}
             <footer className="container mx-auto px-4 py-12">
                 <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
-                    {/* <!-- Company Section --> */}
+                    {/* Company Section */}
                     <div>
                         <h3 className="font-bold text-gray-800 mb-4">Company</h3>
                         <ul className="space-y-2">
@@ -51,7 +51,7 @@ const Footer = () => {
                         </ul>
                     </div>
 
-                    {/* <!-- Services Section --> */}
+                    {/* Services Section  */}
                     <div>
                         <h3 className="font-bold text-gray-800 mb-4">Services</h3>
                         <ul className="space-y-2">
@@ -62,7 +62,7 @@ const Footer = () => {
                         </ul>
                     </div>
 
-                    {/* <!-- Resources Section --> */}
+                    {/*Resources Section */}
                     <div>
                         <h3 className="font-bold text-gray-800 mb-4">Resources</h3>
                         <ul className="space-y-2">
@@ -71,7 +71,7 @@ const Footer = () => {
                         </ul>
                     </div>
 
-                    {/* <!-- Support Section --> */}
+                    {/* Support Section  */}
                     <div>
                         <h3 className="font-bold text-gray-800 mb-4">Support</h3>
                         <ul className="space-y-2">
@@ -79,7 +79,7 @@ const Footer = () => {
                         </ul>
                     </div>
 
-                    {/* <!-- Transportation Network Section --> */}
+                    {/*  Transportation Network Section  */}
                     <div>
                         <h3 className="font-bold text-gray-800 mb-4">Transportation Network</h3>
                         <ul className="space-y-2">
@@ -93,7 +93,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-                {/* <!-- Footer Bottom --> */}
+                {/*  Footer Bottom*/}
                 <div className="mt-12 pt-8 border-t flex flex-col md:flex-row justify-between items-center text-sm text-gray-700">
                     <p>©2024 AAJ Swift. All Rights Reserved</p>
                     <p className="mt-4 md:mt-0">ISO 9001: 2015, ISO 27001: 2013 Certified Company CIN: L63090DL2011PLC221234</p>

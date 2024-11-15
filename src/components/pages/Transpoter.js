@@ -28,8 +28,6 @@ const Transpoter = () => {
                                     <img src={transport_man} alt="Delivery Person" className="w-full h-full object-cover" />
                                 </div>
                             </div>
-
-                            {/* Floating Logo Circles */}
                           
                         </div>
                     </div>

@@ -5,7 +5,7 @@ const Testimonials = () => {
     return (
         <div className=" ml-10 mr-10 bg-black text-gray-800 w-auto">
             <div className="container mx-auto px-4 py-16">
-                {/* <!-- Header Section with Navigation --> */}
+                {/* Header Section with Navigation */}
                 <div className="flex justify-between items-center mb-12">
                     <h2 className="text-5xl  text-white">Client Testimonials</h2>
                     <div className="flex gap-4">
@@ -22,7 +22,7 @@ const Testimonials = () => {
                     </div>
                 </div>
 
-                {/* <!-- Testimonials Grid --> */}
+                {/* Testimonials Grid */}
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     <Testimonial />
                     </div>
