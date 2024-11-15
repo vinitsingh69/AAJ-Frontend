@@ -3,7 +3,7 @@ import Testimonial from './Testimonial/Testimonial'
 
 const Testimonials = () => {
     return (
-        <div className="bg-black">
+        <div className=" ml-10 mr-10 bg-black text-gray-800 w-auto">
             <div className="container mx-auto px-4 py-16">
                 {/* <!-- Header Section with Navigation --> */}
                 <div className="flex justify-between items-center mb-12">

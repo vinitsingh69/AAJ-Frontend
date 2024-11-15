@@ -5,12 +5,12 @@ import Form from './Form'
 
 const Registration = () => {
   return (
-    <div className="bg-gray-50">
-      <div className="container mx-auto px-10 py-12">
-        <div className="grid grid-cols-2 md:grid-cols-2 gap-20 items-start">
+    <div className=" mt-10">
+      <div className="container mx-auto   py-12">
+        <div className="grid grid-cols-2 md:grid-cols-2 items-start">
           {/*   Left Section   */}
           <div className="items-center">
-            <h1 className="text-4xl font-semibold mb-4">
+            <h1 className="text-4xl  font-semibold mb-4 h-24">
               More Than Just Logistics:<br />
               Your Growth Partner
             </h1>

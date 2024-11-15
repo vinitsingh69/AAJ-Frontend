@@ -1,5 +1,5 @@
 import React from 'react'
-import transport_man2 from '../images/transport_man2.png'
+import transport_man from '../images/transport_man.png'
 
 const Transpoter = () => {
     return (
@@ -14,7 +14,7 @@ const Transpoter = () => {
                         <p className="text-lg text-gray-600">
                             With our wide range of transporter network, you gain the flexibility to switch and save on every shipment.
                         </p>
-                        <button className="bg-red-600 text-white px-8 py-3 rounded-md hover:bg-red-700 transition duration-300">
+                        <button className="bg-red-700 text-white px-8 py-3 rounded-md hover:bg-red-700 transition duration-300">
                             Sign Up Now
                         </button>
                     </div>
@@ -25,7 +25,7 @@ const Transpoter = () => {
                             {/* Central Circle with Delivery Person */}
                             <div className="w-80 h-80 bg-red-600 rounded-full mx-auto overflow-hidden relative">
                                 <div className="absolute inset-0 flex items-center justify-center">
-                                    <img src={transport_man2} alt="Delivery Person" className="w-full h-full object-cover" />
+                                    <img src={transport_man} alt="Delivery Person" className="w-full h-full object-cover" />
                                 </div>
                             </div>
 

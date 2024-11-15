@@ -3,11 +3,12 @@ import LogisticsCard from './Logistics/LogisticsCard'
 
 const Logistics = () => {
     return (
-        <div className="bg-black text-gray-800">
+        <div className='items-center'>
+            <div className="ml-10 mr-10 bg-black text-gray-800 w-auto">
             <div className="container mx-auto px-4 py-12">
                 {/*  Header Section */}
                 <div className="text-center mb-12">
-                    <h1 className="text-4xl md:text-5xl font-medium text-white mb-4">Transforming Logistics. Scaling Businesses</h1>
+                    <h1 className="text-4xl md:text-5xl  text-white mb-4">Transforming Logistics. Scaling Businesses</h1>
                     <p className="text-gray-400 text-lg">Simplifying transportation so you can focus on growing your business.</p>
                 </div>
 
@@ -16,6 +17,7 @@ const Logistics = () => {
                     <LogisticsCard/>
                 </div>
             </div>
+        </div>
         </div>
     )
 }
